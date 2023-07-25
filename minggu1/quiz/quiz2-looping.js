@@ -49,3 +49,24 @@ for(let k = 0;k<=100;k++){
 // "3 kelipatan 3"dan seterusnya.
 console.log('\nno.3\n')
 
+console.log("Perulangan dengan pertambahan 2:");
+for (let counter = 1; counter <= 100; counter += 2) {
+  if (counter % 3 === 0) {
+    console.log(counter + " kelipatan 3");
+  }
+}
+
+console.log("\nPerulangan dengan pertambahan 5:");
+for (let counter = 1; counter <= 100; counter += 5) {
+  if (counter % 6 === 0) {
+    console.log(counter + " kelipatan 6");
+  }
+}
+
+console.log("\nPerulangan dengan pertambahan 9:");
+for (let counter = 1; counter <= 100; counter += 9) {
+  if (counter % 10 === 0) {
+    console.log(counter + " kelipatan 10");
+  }
+}
+
